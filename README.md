@@ -1,18 +1,21 @@
 # 🛒 Next.js Item Management Application
 
+![Landing Page](./public/homePage.png)
+
 A simple full-stack application built with **Next.js 15/16 (App Router)** and **Express.js API**.  
 The project demonstrates public and protected routes, authentication, item listing, and item details with a clean UI.
 
 ---
 
 ## 🚀 Live Demo
-🔗 Live Site: https://next-shop-web.vercel.app
+
+🔗 Live Site: https://next-shop-web.vercel.app </br>
 🔗 GitHub Repository: https://github.com/Reazul87/Next-Shop
 
 ---
 
 <!-- ## 🔐 Login Credentials (Mock Login)
-Email: `welcome@gmail.com`  
+Email: `welcome@gmail.com`
 Password: `Welcome123`
 
 > You can also log in using **Google Authentication**.
@@ -22,6 +25,7 @@ Password: `Welcome123`
 ## 📌 Project Features
 
 ### 1️⃣ Landing Page (Public)
+
 - Fully responsive landing page
 - Includes **7 sections** (excluding Navbar & Footer)
 - Navbar includes navigation links to Login and Items pages
@@ -30,6 +34,7 @@ Password: `Welcome123`
 ---
 
 ### 2️⃣ Authentication
+
 - Implemented using **NextAuth.js**
 - Supports:
   - Credentials login (email & password)
@@ -40,6 +45,7 @@ Password: `Welcome123`
 ---
 
 ### 3️⃣ Item List Page (Public)
+
 - Publicly accessible
 - Fetches items from **Express.js API**
 - Displays:
@@ -52,6 +58,7 @@ Password: `Welcome123`
 ---
 
 ### 4️⃣ Item Details Page (Public)
+
 - Displays full details of a selected item
 - Dynamic route using item ID
 - Server-side data fetching
@@ -60,6 +67,7 @@ Password: `Welcome123`
 ---
 
 ### 5️⃣ Protected Route: Add Item (Optional)
+
 - Accessible **only to authenticated users**
 - Protected using **Next.js middleware**
 - Unauthenticated users are redirected to the login page
@@ -73,6 +81,7 @@ Password: `Welcome123`
 Protected routes are implemented using **Next.js Middleware** and **NextAuth JWT tokens**.
 
 ### How it works:
+
 1. User logs in → NextAuth sets a secure cookie
 2. Middleware checks authentication status using the cookie
 3. If user is not authenticated:
@@ -84,18 +93,19 @@ Protected routes are implemented using **Next.js Middleware** and **NextAuth JWT
 
 ## 🗂️ Route Summary
 
-| Route | Type | Authentication |
-|------|------|----------------|
-| `/` | Public | ❌ |
-| `/login` | Public | ❌ |
-| `/register` | Public | ❌ |
-| `/items` | Public | ❌ |
-| `/items/[id]` | Public | ❌ |
-| `/add-item` | Protected | ✅ |
+| Route         | Type      | Authentication |
+| ------------- | --------- | -------------- |
+| `/`           | Public    | ❌             |
+| `/login`      | Public    | ❌             |
+| `/register`   | Public    | ❌             |
+| `/items`      | Public    | ❌             |
+| `/items/[id]` | Public    | ❌             |
+| `/add-item`   | Protected | ✅             |
 
 ---
 
 ## 🛠️ Technologies Used
+
 - **Next.js 15/16 (App Router)**
 - **NextAuth.js**
 - **Express.js**
@@ -108,6 +118,7 @@ Protected routes are implemented using **Next.js Middleware** and **NextAuth JWT
 ## ⚙️ Setup & Installation
 
 ### 1️ Clone the repository
+
 ```bash
 git clone https://github.com/Reazul87/TASK_PROJECT.git
 cd TASK_PROJECT
@@ -119,6 +130,7 @@ cd TASK_PROJECT
 npm install
 
 ```
+
 ### 3️ Environment Variables
 
 Create a .env.local file and add:
@@ -136,7 +148,6 @@ NEXTAUTH_URL=your_next_auth_url
 
 ```
 
-
 4️⃣ Run the development server
 
 ```
@@ -147,13 +158,12 @@ npm run dev
 ### 📖 Brief Explanation
 
 This project demonstrates how to build a modern Next.js application with:
- 
+
 - Public and protected routes
 - Cookie-based authentication
 - Middleware route protection
 - API integration with Express.js
 - Clean UI using reusable components
-
 
 ## 🤝 Contributing
 
@@ -170,4 +180,5 @@ See the [LICENSE](LICENSE) file for details.
 [![GitHub](https://img.shields.io/badge/GitHub-%40Reazul87-black?logo=github)](https://github.com/Reazul87)
 
 ---
+
 <!-- welcome@gmail.com Welcome123  -->
