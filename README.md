@@ -120,8 +120,8 @@ Protected routes are implemented using **Next.js Middleware** and **NextAuth JWT
 ### 1️ Clone the repository
 
 ```bash
-git clone https://github.com/Reazul87/TASK_PROJECT.git
-cd TASK_PROJECT
+git clone https://github.com/Reazul87/Next-Shop.git
+cd Next-Shop
 ```
 
 ### 2 Install dependencies
